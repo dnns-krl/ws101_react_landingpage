@@ -1,0 +1,133 @@
+.contact {
+    background: #252525;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    position: relative;
+}
+
+.fill-form {
+    background-color:transparent;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #ffeb3b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 235, 59, 0.7); 
+}
+
+.submit-btn {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffeb3b;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ffd54f;
+    transform: scale(1.05); 
+}
+
+.social-media {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media h3 {
+    font-size: 1.8rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #ffeb3b;
+}
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.footer p {
+    margin: 0; 
+}
+
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 2rem 1rem;
+    }
+
+    .fill-form {
+        max-width: 90%; 
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+}
